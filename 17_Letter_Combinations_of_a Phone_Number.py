@@ -18,9 +18,3 @@ def letterCombinations(digits):
                 _combo.append(p + q)
         combo = _combo
     return combo
-
-
-print(letterCombinations("23"))
-print(letterCombinations(""))
-print(letterCombinations("2"))
-print(letterCombinations("245"))
